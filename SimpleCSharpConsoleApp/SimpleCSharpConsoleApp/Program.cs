@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace SimpleCSharpConsoleApp
 {
@@ -19,7 +20,8 @@ namespace SimpleCSharpConsoleApp
             Console.WriteLine("*************************************");
 
             // Wait for Enter key to be pressed.
-            Console.ReadLine();
+            //Console.ReadLine();
+            MessageBox.Show("All done!");
         }
     }
 }
